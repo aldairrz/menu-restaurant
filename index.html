@@ -5,18 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mariscos Richard</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
 <style>
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   background: #f0f6f9;
 }
+
 header {
   background: linear-gradient(135deg, #0a6c8e, #0dcaf0);
   color: white;
   text-align: center;
   padding: 25px;
 }
+
 h1 { margin: 0; }
 
 .container {
@@ -31,7 +34,6 @@ h1 { margin: 0; }
 
 .section h2 {
   color: #0a6c8e;
-  margin-bottom: 10px;
 }
 
 .card {
@@ -50,6 +52,35 @@ h1 { margin: 0; }
 .price {
   font-weight: bold;
   color: #0a6c8e;
+}
+
+/* BOTONES */
+.actions {
+  position: sticky;
+  bottom: 0;
+  background: white;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+
+.btn {
+  flex: 1;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.whatsapp {
+  background: #25D366;
+}
+
+.maps {
+  background: #0a6c8e;
 }
 
 .footer {
@@ -119,9 +150,19 @@ h1 { margin: 0; }
 
 </div>
 
+<!-- BOTONES FIJOS -->
+<div class="actions">
+  <a class="btn whatsapp" href="https://wa.me/527225973677" target="_blank">
+    💬 WhatsApp
+  </a>
+
+  <a class="btn maps" href="https://www.google.com/maps/place/Mariscos+Richard/@19.2891408,-99.663015,17z" target="_blank">
+    📍 Ubicación
+  </a>
+</div>
+
 <div class="footer">
-📍 Mariscos Richard  
-Escanea y ordena fácilmente
+📍 Mariscos Richard | Escanea y ordena fácilmente
 </div>
 
 </body>
